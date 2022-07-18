@@ -1,0 +1,36 @@
+@import '_working-hours';
+@import '_slide-section';
+@import '_top-navbar';
+@import '_search';
+@import '_library-indicator';
+@import '_hero';
+@import '_calendar';
+@import '_bottom-navbar';
+
+body {
+    margin: 0;
+    padding: 0;
+    // font-family: "Roboto Condensed","Arial Narrow",sans-serif; visi
+    font-family: sans-serif;
+    background-color: #7ea5af;
+    .navbar-background {
+        display: flex;
+        z-index: -3;
+        width: 100%;
+        height: 140px;
+        background-color: #96E3E3;
+        position: absolute;
+    }
+    header {
+        z-index: -2;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            background-color: #96E3E3;
+            width: 1280px;
+        }
+    }
+}

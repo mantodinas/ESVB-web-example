@@ -1,0 +1,26 @@
+.hearo-container {
+    display: flex;
+    justify-content: center;
+    .hero {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: #96E3E3;
+        height: 320px;
+        width: 1280px;
+        border-radius: 10px;
+        .calendar {
+            width: 30%;
+            // background-color: yellow;
+        }
+
+        .search-bar-container {
+            width: 55%;
+            // background-color: blue;
+        }
+
+        .working-hours-container {
+            width: 18%;
+        }
+    }
+}

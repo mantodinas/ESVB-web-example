@@ -1,0 +1,59 @@
+.slide-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        margin-top: 15px;
+        width: 1280px;
+        height: 300px;
+        background-color: #7f8383;
+        span {
+            position: absolute;
+            font-size: 50px;
+            color: #ffffff;
+            text-transform: capitalize;
+        }
+
+        .slide-btn-container {
+            display: flex;
+            height: 50px;
+            width: 100%;
+            .btn-left {
+                display: flex;
+                justify-content: flex-end;
+                width: 50%;
+            }
+            .btn-right {
+                display: flex;
+                justify-content: flex-end;
+                width: 50%;
+                transform: rotate(180deg);
+            }
+            .btn-left, .btn-right {
+                button {
+                    border: none;
+                    width: 40px;
+                    border-radius: 5px 0px 0px 5px;
+                    color: #7f8383;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+        .dot-indicators {
+            position: absolute;
+            display: flex;
+            font-size: 100px;
+            .dot {
+                margin-top: 240px;
+                color: #535757;
+            }
+        }
+
+    }
+}

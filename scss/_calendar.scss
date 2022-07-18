@@ -1,0 +1,47 @@
+.calendar {
+    .table-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .table {
+            margin-top: 25px;
+            th, td {
+                padding: 10px 12px 10px 12px;
+                background-color: #29a8a8;
+                color: #ffffff;
+            }
+            td {
+                &:hover {
+                    background-color: #297575;
+                }
+            }
+            .corner1 {
+                border-radius: 10px 0 0 0;
+            }
+            .corner2 {
+                border-radius: 0 10px 0 0;
+            }
+            .corner3 {
+                border-radius: 0 0 0 10px;
+            }
+            .corner4 {
+                border-radius: 0 0 10px 0;
+            }
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 86%;
+            height: 30px;
+            border-radius: 0px 0px 15px 15px;
+            color: #ffffff;
+            background-color: #297575;
+        }
+    }
+}
+
+#before-month {
+    opacity: 0.3;
+}

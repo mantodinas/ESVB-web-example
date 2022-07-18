@@ -1,0 +1,3 @@
+website published at: https://........
+
+with: 1280px

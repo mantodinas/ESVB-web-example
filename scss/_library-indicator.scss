@@ -1,0 +1,35 @@
+.library-indicator-container {
+    display: flex;
+    justify-content: center;
+    .library-indicator {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 1280px;
+        height: 40px;
+        .main-span {
+            background-color: #297575;
+            padding: 10px 27px 10px 26px;
+            border-radius: 0 0 20px 20px;
+            color: #ffffff;
+            font-size: 18px;
+            &:hover {
+                transform: scale(1.2);
+                border-radius: 5px 5px 11px 11px;
+            }
+        }
+        .secondary-span {
+            background-color: #29a8a8;
+            padding: 5px 25px 5px 25px;
+            border-radius: 0 0 11px 11px;
+            color: #ffffff;
+            font-size: 15px;
+            &:hover {
+                background-color: #387a7a;
+                transform: scale(1.2);
+                border-radius: 11px;
+            }
+        }
+
+    }
+}
