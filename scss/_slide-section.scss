@@ -10,11 +10,11 @@
         margin-top: 15px;
         width: 1280px;
         height: 300px;
-        background-color: #7f8383;
+        background-color: var(--hover-1-color);
         span {
             position: absolute;
             font-size: 50px;
-            color: #ffffff;
+            color: var(--white-color);
             text-transform: capitalize;
         }
 
@@ -38,7 +38,7 @@
                     border: none;
                     width: 40px;
                     border-radius: 5px 0px 0px 5px;
-                    color: #7f8383;
+                    color: var(--hover-1-color);
                     &:hover {
                         transform: scale(1.1);
                     }
@@ -51,7 +51,7 @@
             font-size: 100px;
             .dot {
                 margin-top: 240px;
-                color: #535757;
+                color: var(--hover-2-color);
             }
         }
 

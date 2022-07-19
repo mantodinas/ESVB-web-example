@@ -3,7 +3,7 @@
     height: 75px;
     display: flex;
     flex-direction: row;
-    background-color: #96E3E3;
+    background-color: var(--main-1-color);
     .logo {
         width: 50%;
         img {
@@ -24,7 +24,7 @@
             height: 40px;
             &:hover {
                 border-radius: 100%;
-                background-color: #929c9c;
+                background-color: var(--hover-1-color);
                 transform: scale(1.2);
             }
             img {
@@ -42,7 +42,7 @@
     &:hover {
         width: 40px;
         height: 40px;
-        background-color: #94b9b9;
+        background-color: var(--hover-2-color);
         transform: scale(1.2);
     }
     img {
@@ -69,17 +69,17 @@
 .icon-content {
     display: none;
     position: absolute;
-    background-color: #888888;
+    background-color: var(--hover-2-color);
     width: 160px;
     z-index: 3;
     border-radius: 10px;
     a {
         display: block;
-        color: #ffffff;
+        color: var(--white-color);
         padding: 5px 5px;
         text-decoration: none;
         &:hover {
-            background-color: #302f2f;
+            background-color: var(--hover-3-color);
             border-radius: 10px;
             transform: scale(1.1);
         }

@@ -8,12 +8,12 @@
             margin-top: 25px;
             th, td {
                 padding: 10px 12px 10px 12px;
-                background-color: #29a8a8;
-                color: #ffffff;
+                background-color: var(--main-2-color);
+                color: var(--white-color);
             }
             td {
                 &:hover {
-                    background-color: #297575;
+                    background-color: var(--main-3-color);
                 }
             }
             .corner1 {
@@ -36,8 +36,8 @@
             width: 86%;
             height: 30px;
             border-radius: 0px 0px 15px 15px;
-            color: #ffffff;
-            background-color: #297575;
+            color: var(--white-color);
+            background-color: var(--main-3-color);
         }
     }
 }

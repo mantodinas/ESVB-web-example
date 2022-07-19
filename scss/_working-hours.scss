@@ -5,8 +5,8 @@
     width: 100%;
     // background-color: blueviolet;
     .working-hours {
-        background-color: #29a8a8;
-        color: #ffffff;
+        background-color: var(--main-2-color);
+        color: var(--white-color);
         width: 170px;
         height: 260px;
         border-radius: 15px;
@@ -38,8 +38,8 @@
         .table-btn {
             display: flex;
             justify-content: center;
-            color: #ffffff;
-            background-color: #297575;
+            color: var(--white-color);
+            background-color: var(--main-3-color);
             padding-top: 10px;
             width: 100%;
             padding-bottom: 12px;
