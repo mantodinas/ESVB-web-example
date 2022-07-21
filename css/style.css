@@ -300,7 +300,7 @@
 }
 .library-indicator-container .library-indicator .secondary-span {
   background-color: var(--main-2-color);
-  padding: 5px 25px 5px 25px;
+  padding: 5px 18px 5px 18px;
   border-radius: 0 0 11px 11px;
   color: #ffffff;
   font-size: 15px;
