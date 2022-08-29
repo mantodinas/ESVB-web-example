@@ -12,6 +12,18 @@
         }
     }
 
+    .search {
+        display: flex;
+        flex-direction: row;
+        .search-input {
+            height: 50px;
+        }
+
+        .search-btn {
+
+        }
+    }
+
     .icons {
         width: 50%;
         align-items: center;
