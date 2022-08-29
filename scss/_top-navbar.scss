@@ -12,7 +12,20 @@
         }
     }
 
+    
     .icons {
+        .search {
+            display: flex;
+            flex-direction: row;
+            .search-input {
+                
+            }
+    
+            .search-btn {
+                text-decoration: none;
+            }
+        }
+
         width: 50%;
         align-items: center;
         justify-content: right;
