@@ -13,14 +13,16 @@
     }
 
     .search {
+        height: 50px;
+        background-color: green;
         display: flex;
         flex-direction: row;
         .search-input {
-            height: 50px;
+            
         }
 
         .search-btn {
-
+            text-decoration: none;
         }
     }
 
