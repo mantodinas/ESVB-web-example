@@ -43,26 +43,5 @@
             }
         }
 
-        .btn-container {
-            margin-top: 70px;
-            display: flex;
-            flex-direction: row;
-            gap: 29px;
-            .search-btn1, .search-btn2, .search-btn3 {
-                button {
-                    width: 210px;
-                    padding: 15px;
-                    border: none;
-                    border-radius: 10px;
-                    background-color: var(--main-2-color);
-                    color: var(--white-color);
-                    text-transform: capitalize;
-                    &:hover {
-                        background-color: var(--hover-4-color);
-                        transform: scale(1.1);
-                    }
-                }
-            }
-        }
     }
 }
