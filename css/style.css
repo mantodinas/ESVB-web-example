@@ -385,13 +385,13 @@
   background-color: var(--main-1-color);
   height: 50px;
   padding-bottom: 15px;
-  gap: 4px;
+  gap: 1px;
 }
 .navbar-bottom .btn-hover-container .btn {
   background-color: var(--main-1-color);
   color: var(--white-color);
-  padding: 16px 27px 16px 27px;
-  font-size: 16px;
+  padding: 16px 21px 16px 21px;
+  font-size: 15px;
   border: none;
 }
 .navbar-bottom .btn-hover-container .btn:hover {
@@ -413,6 +413,10 @@
 }
 .navbar-bottom .btn-hover-container .btn-content a:hover {
   background-color: var(--hover-3-color);
+}
+
+#bibliotekos-btn {
+  padding: 16px 24px 16px 23px;
 }
 
 /* Show the dropdown menu on hover */
